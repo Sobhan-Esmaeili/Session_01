@@ -181,7 +181,42 @@ This is a multi-Line comment
 # words = "0 1 2 3 4 5 6 7 8 9"
 # print(words.split(" "))
 
+# Accepting User Input
+# accepting and outputting user input
+# print(input("What is your name? "))
 
+# saving what the user inputs
+# answer = input("What is your name? ")
+# print("Hello {0}!".format(answer.title()))
+
+# Checking the Type
+# how to check the data type of a variable
+# num_01 = 5
+# print(type(num_01))
+
+# Converting Data Types
+# num_01 = "10"
+# num_01 = int(num_01)  # re-declaring num to store an integer
+# print(type(num_01))  # checking type to make sure conversion worked
+# num_01 = 10
+# num_01 = str(num_01)
+# print(type(num_01))
+# num_01 = 2.5
+# num_01 = int(num_01)
+# print(type(num_01))
+# print(num_01)
+# num_01 = True
+# num_01 = int(num_01)
+# print(type(num_01))
+# print(num_01)
+# num_01 = 0
+# num_01 = bool(num_01)
+# print(type(num_01))
+# print(num_01)
+# num_01 = 2
+# num_01 = float(num_01)
+# print(type(num_01))
+# print(num_01)
 
 
 
