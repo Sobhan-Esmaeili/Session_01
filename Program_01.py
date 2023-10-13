@@ -45,6 +45,45 @@ This is a multi-Line comment
 #  string         "hello"   Characters within quotes
 # -------------------------
 
+# The Print Statement
+# Integer
+# print(2)
+# Floats
+# print(10.953)
+# Booleans
+# print(True)
+# Strings
+# print(" ")
+# print("Sobhan Esmaeili")
+# -------------------------
+
+# Type Checking
+# type(int)
+# -------------------------
+
+# Variables
+# variable_01 = 1
+# print(variable_01)
+
+# Handling Naming Errors
+# variable_01 = 1
+# print(Variable_01)
+
+# Integer and Float Variables
+# num_01 = 2
+# num_02 = 2.5
+# print(num_01, num_02)
+
+# Boolean Variables
+# switch = True
+# print(switch)
+
+# String Variables
+name = 'Sobhan Esmaeili'
+student_number = "20202"
+print(name, student_number)
+
+
 
 
 
