@@ -219,6 +219,41 @@ This is a multi-Line comment
 # print(num_01)
 
 
+# Converting User Input
+# working with user input to perform calculations
+# answer = input("Type a number to add: ")
+# print(type(answer))  # default type is string, must convert
+# result = 100 + int(answer)
+# print("100 + {0} = {1}".format(answer, result))
+
+# Handling Errors
+# try:
+#     answer = float(input("Type a number to add: "))
+#     print("100 + {0} = {1}".format(answer, 100 + answer))
+# except:
+#     print("You did not put in a valid number!")
+# # without try/except print statement would not get hit if error occurs
+# print("The program did not break!")
+
+# If Statements
+# using an if statement to only run code if the condition is met
+# x, y = 5, 10
+# if x < y:
+#     print("x is less than y")
+
+# Comparison Operators
+# == equality if x == y: if x is equal to y
+# != Inequality if x != y: if x does not equal y
+# > Greater than if x > y: if x is greater than y
+# < less than if x < y: if x is less than y
+# >= Greater or equal if x >= y: if x is greater or equal to y
+# <= less or equal if x <= y: if x is less or equal to y
+
+
+
+
+
+
 
 ##########################################################################################
 # Home Work
