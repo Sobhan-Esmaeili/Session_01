@@ -17,6 +17,9 @@ Statistical Pattern Recognition | Session 01
 
 # Writing Your First Line of Python
 # print("Hello World")
+# print("▬" * 23) # Alt + 22
+# print("\t", "1", "\n\t", "2", "\n\t", "3")
+# print("\t" * 5, "1", "\n" * 4, "\t", "2", "\n\t", "3")
 # -------------------------
 
 # Exiting the Python Shell
@@ -64,6 +67,8 @@ This is a multi-Line comment
 # Variables
 # variable_01 = 1
 # print(variable_01)
+# variable_02, variable_03 = "A", "5"
+# print(variable_02, variable_03)
 
 # Handling Naming Errors
 # variable_01 = 1
@@ -145,4 +150,61 @@ This is a multi-Line comment
 # print(word[1])
 # print(word[-1])
 
+# String Slicing
+# word = "Sobhan Esmaeili"
+# print(word[0:3:1])
 
+# String Manipulation
+# using the title method to capitalize a string
+# name = "sobhan esmaeili"
+# print(name.title())
+
+# Replacing an Exclamation Point With a Period
+# words = "Hello Sobhan!"
+# print(words.replace("!", "."))
+
+# Finding the Starting Index of our Searched Term
+# words = "Sobhan Esmaeili"
+# print(words.find("Esmaeili"))
+
+# removing white space with strip
+# name = " Sobhan "
+# print(len(name))
+# print(name.strip())
+# print(len(name.strip()))
+
+# name = " Sobhan "
+# print(name.lstrip())
+# print(name.rstrip())
+
+# Converting a String Into a List of Words
+# words = "0 1 2 3 4 5 6 7 8 9"
+# print(words.split(" "))
+
+
+
+
+
+##########################################################################################
+# Home Work
+# netsh wlan show all (CMD Command)
+# import subprocess
+# meta_data = subprocess.check_output(["netsh", "wlan", "show", "network", "mode=Bssid"])
+# print(meta_data)
+
+# 1)Number of Visible Networks
+# 2)Network Type
+# 3)Authentication
+# 4)Encryption
+# 5)SSID
+# 6)Signal
+# 7)Radio Type
+# 8)Channel
+# 9)Basic Rate (Mbps)
+# 10)Other Rate (Mbps)
+# 11)MAC Address
+##########################################################################################
+# Contact Info:
+# Email: S.Esmaeili@umail.umz.ac.ir
+# Cellphone: +989122123203
+##########################################################################################
