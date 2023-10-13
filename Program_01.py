@@ -79,11 +79,70 @@ This is a multi-Line comment
 # print(switch)
 
 # String Variables
-name = 'Sobhan Esmaeili'
-student_number = "20202"
-print(name, student_number)
+# name = 'Sobhan Esmaeili'
+# student_number = "20202"
+# print(name, student_number)
+
+# Using Multiple Variables
+# num_01 = 1
+# num_02 = 1
+# result = num_01 + num_02
+# print(result)
+# print(num_01 + num_02)
 
 
+# Using Operators on Numerical Variables
+# Adding, Deleting, Multiplying, Dividing From a Variable
+# result = 1
+# num_01 = 2
+# result += 1  # Same as Saying result = result + 1
+# print(result)
+# result *= num_01  # Same as Saying result = result * num1
+# print(result)
 
+# Overwriting Previously Created Variables
+# Defining a Variable and Overwriting It's Value
+# name = 'Sobhan'
+# print(name)
+# name = 'Sepehr'
+# print(name)
+
+# Whitespace
+# name = "Sobhan Esmaeili"
+
+# String Concatenation
+# Using the addition operator without variables
+# name = "Sobhan" + " " + "Esmaeili"
+# name = 'Sobhan' + ' ' + 'Esmaeili'
+# print(name)
+
+# using the addition operator with variables
+# first_name = "Sobhan"
+# last_name = "Esmaeili"
+# full_name = first_name + " " + last_name
+# print(full_name)
+
+# Formatting Strings (3.8)
+# Injecting Variables Using the Format Method
+# name = "Sobhan"
+# print("Hello {0}".format(name))
+# print('Hello {0}, you are {1} years old!'.format(name, 38))
+
+# Formatting Strings (3.6)
+# Injecting Variables Using the Format Method
+# name = "Sobhan"
+# print("Hello {}".format(name))
+# print('Hello {}, you are {} years old!'.format(name, 38))
+
+# using the new f strings (3.6)
+# name = "Sobhan"
+# print(f"Hello {name}")
+
+# String Index
+# Using Indexes to Print Each Element
+# word = "Sobhan Esmaeili"
+# print(word[0])
+# print(word[1])
+# print(word[-1])
 
 
