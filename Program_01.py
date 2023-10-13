@@ -266,8 +266,32 @@ This is a multi-Line comment
 # if x < y or x != z:
 #     print("One or both statements were true")
 
+# Logical Operator "not"
+# using the keyword 'not' within an 'if statement'
+# flag = False
+# if not flag:  # same as saying if not true
+#     print("Flag is False")
 
+# Membership Operators
+# Membership Operator "in"
+# using the keyword 'in' within an 'if statement'
+# word = "Sobhan Esmaeili"
+# if "b" in word:
+#     print("{0} contains the character b".format(word))
 
+# Membership Operator "not in"
+# using the keyword 'not in' within an 'if statement'
+# word = "Sobhan Esmaeili"
+# if "x" not in word:
+#     print("{0} does not contain the character x".format(word))
+
+# Elif Statements
+# using the elif conditional statement
+# x, y = 5, 10
+# if x > y:
+#     print("x is greater")
+# elif x < y:
+#     print("x is less")
 
 
 ##########################################################################################
