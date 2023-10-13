@@ -249,7 +249,22 @@ This is a multi-Line comment
 # >= Greater or equal if x >= y: if x is greater or equal to y
 # <= less or equal if x <= y: if x is less or equal to y
 
+# checking user input
+# answer = int(input("What is 5 + 5? "))
+# if answer == 10:
+#     print("You got it right!")
 
+# Logical Operator "and"
+# using the keyword 'and' in an 'if statement'
+# x, y, z = 5, 10, 5
+# if x < y and x == z:
+#     print("Both statements were true")
+
+# Logical Operator "or"
+# using the keyword 'or' in an 'if statement'
+# x, y, z = 5, 10, 5
+# if x < y or x != z:
+#     print("One or both statements were true")
 
 
 
